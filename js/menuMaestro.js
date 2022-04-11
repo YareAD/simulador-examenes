@@ -41,7 +41,7 @@ async function eliminarFormulario(id_formulario) {
 }
 
 async function editarFormulario(id_formulario) {
-    window.location.href = `/editarForm.html?id=${id_formulario}`
+    window.location.href = `editarForm.html?id=${id_formulario}`
 }
 
 window.eliminarFormulario = eliminarFormulario;
